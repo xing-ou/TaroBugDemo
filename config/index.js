@@ -19,10 +19,7 @@ const config = {
     }
   },
   framework: 'react',
-  mini: {
-    sass: {
-      data: '$aaa: blue;'
-    },
+  mini: {    
     postcss: {
       pxtransform: {
         enable: true,
@@ -45,10 +42,7 @@ const config = {
       }
     }
   },
-  h5: {
-    sass: {
-      data: '$aaa: blue;'
-    },
+  h5: {   
     publicPath: '/',
     staticDirectory: 'static',
     postcss: {
@@ -66,11 +60,7 @@ const config = {
       }
     }
   },
-  rn: {
-    sass: {
-      data: '$aaa: blue;'
-    }
-    ,
+  rn: {   
     appName: 'taroDemo',
     output: {
       ios: './ios/main.jsbundle',
